@@ -94,7 +94,7 @@ This project includes a Databricks Job that runs all four notebooks end-to-end i
 
 Example of a successful end-to-end run:
 
-![Successful pipeline job run](./readme_assets/job-run-success.png)
+![Successful pipeline job run](./job-run-success.png)
 
 ### Option B — Run notebooks manually, one at a time
 
