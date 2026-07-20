@@ -4,8 +4,7 @@ A centralized data platform built on Databricks + Delta Lake that ingests raw CS
 cleans and standardizes them, detects schema drift, tracks historical changes (SCD Type 2),
 and produces business-ready tables for analytics — following the **Bronze → Silver → Gold**
 (Medallion) architecture.
-## Note
--Can you please rename the files to above prefered format.
+
 
 ## Problem Statement
 
@@ -28,6 +27,9 @@ Raw (CSV/JSON) → Bronze → Silver → Gold → Analytics
 | **Gold** | `4GoldSql.ipynb` | Reshapes Silver data into business-ready dimension and fact tables (`dimCustomers`, `dimProducts`, `dimSellers`, `factOrderItems`, `factPayments`), joined and aggregated — written entirely in SQL against Silver-registered temp views. |
 | **Analytics** | `5AnalyticsSQL.ipynb` | Queries the Gold tables to answer real business questions: revenue trends, top products, seller rankings, customer segmentation, payment value tiers — using `GROUP BY`, `JOIN`, `CASE`, `CTE`s, and window functions. |
 | **Orchestration** | `1RunPipeLine.ipynb` | Runs all four notebooks in sequence via `dbutils.notebook.run(...)`. |
+
+## Note
+-Can you please rename the files to above prefered format because as i downloaded my files muitlple times my files names have changed .
 
 ### Why Silver → Gold, not just Silver → Analytics
 
