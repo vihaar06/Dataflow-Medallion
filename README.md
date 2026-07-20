@@ -4,6 +4,8 @@ A centralized data platform built on Databricks + Delta Lake that ingests raw CS
 cleans and standardizes them, detects schema drift, tracks historical changes (SCD Type 2),
 and produces business-ready tables for analytics — following the **Bronze → Silver → Gold**
 (Medallion) architecture.
+## Note
+-Can you please rename the files to above prefered format.
 
 ## Problem Statement
 
@@ -130,3 +132,4 @@ Databricks Job.
   source instead of re-running Analytics queries each time.
 - Extend SCD2 tracking to additional tables beyond customers.
 - Add row-count / null-rate checks as an automated data-quality gate between Bronze and Silver.
+
