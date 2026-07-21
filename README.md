@@ -5,6 +5,10 @@ cleans and standardizes them, detects schema drift, tracks historical changes (S
 and produces business-ready tables for analytics — following the **Bronze → Silver → Gold**
 (Medallion) architecture.
 
+## Note
+-Can you please rename the files to above prefered format because as i downloaded my files muitlple times my files names have changed .
+
+
 
 ## Problem Statement
 
@@ -28,8 +32,6 @@ Raw (CSV/JSON) → Bronze → Silver → Gold → Analytics
 | **Analytics** | `5AnalyticsSQL.ipynb` | Queries the Gold tables to answer real business questions: revenue trends, top products, seller rankings, customer segmentation, payment value tiers — using `GROUP BY`, `JOIN`, `CASE`, `CTE`s, and window functions. |
 | **Orchestration** | `1RunPipeLine.ipynb` | Runs all four notebooks in sequence via `dbutils.notebook.run(...)`. |
 
-## Note
--Can you please rename the files to above prefered format because as i downloaded my files muitlple times my files names have changed .
 
 ### Why Silver → Gold, not just Silver → Analytics
 
