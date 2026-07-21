@@ -6,7 +6,7 @@ and produces business-ready tables for analytics — following the **Bronze → 
 (Medallion) architecture.
 
 ## Note
--Can you please rename the files to above prefered format because as i downloaded my files muitlple times my files names have changed .
+-Can you please rename the files to below preferred format because as i downloaded my files muitlple times my files names have changed .
 
 
 
